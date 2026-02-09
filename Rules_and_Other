@@ -1,0 +1,30 @@
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to
+deal in the Software without restriction, including without limitation the
+rights to use, copy, modify, merge. It's Open-Source
+
+
+# ASIDE FROM THAT COPYRIGHT STUFF:
+
+# Rules:
+   1.   The Game is made upon 3x3 Matrix. 
+      
+   2.   1st Row = 0  , 2nd Row = 1 , 3rd Row = 2
+      
+   3.  1st Column = 0  , 2nd Column = 1 , 3rd Column = 2
+   
+   That's Basically it . Try to finish in minimum shots . Have FUN :)
+   
+# Author's Notes:
+
+Its my first time making something like this in C/C++ ,So I decided to
+upload it , I will be making further modifications or upgrading it as I
+learn more and more stuff . If anyone want to add their notes feel free , I
+would welcome the advice and suggestions , If I can manage and do it.
+                                                      ---09/02/2026---/*77*/
+                                                            
+# Reader's / Player's Notes:
+                                                       
+
+

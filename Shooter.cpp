@@ -29,11 +29,14 @@ int main()                          // =============== MAIN ==================
     
     while(flag != 1)
     {
-        cout<<"\n\nEnter row (0-2) : " ;      // INPUTS
+        cout<<"\n\nEnter row (1-3) : " ;      // INPUTS
         cin>>input1;
-        cout<<"\nEnter column (0-2) : " ; 
+        cout<<"\nEnter column (1-3) : " ; 
         cin>>input2;
-
+  
+        input1--;
+        input2--;
+      
         for (int i=0; i < row; i++)           // CHECKS IF IT HITS OR MISSES
         { 
             for (int j=0; j< col; j++)
@@ -54,7 +57,7 @@ int main()                          // =============== MAIN ==================
             }
         } 
          std::system("clear");                  // LINUX OS                                // CLEARS TERMINAL SCREEN ( FOR BETTER VISUALS )
-         //std::system("cls");                  // WINDOWS OS                              // (( Uncomment and comment on , depends on which OS you are using ))
+         std::system("cls");                  // WINDOWS OS                              // (( Uncomment and comment on , depends on which OS you are using ))
 
         user_count++;
         cout<<"\n";

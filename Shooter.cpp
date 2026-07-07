@@ -33,7 +33,12 @@ int main()                          // =============== MAIN ==================
         cin>>input1;
         cout<<"\nEnter column (1-3) : " ; 
         cin>>input2;
-  
+        if ( -1 < (input1 || input2) > 3  )  //CHECKER
+        {
+          user_count++;
+          continue;
+        }
+      
         input1--;
         input2--;
       
